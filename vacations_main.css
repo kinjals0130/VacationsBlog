@@ -10,42 +10,15 @@
     text-align: left;
 }
 
-/*css styling for the navbar*/
-ul.main_navbar{
-    list-style-type: none;
-    margin: -5px;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-ul.main_navbar li{
-    float: left;
-}
-
-ul.main_navbar li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.main_navbar li a:hover{
-    background-color: #111;
-}
-
-ul.main_navbar li a.active{
-    background-color: #04AA6D;
-}
-
-ul.main_navbar li.right{
-    float: right;
-}
-
-@media screen and (max-width: 600px){
-    ul.main_navbar li.right,
-    ul.main_navbar li{float: none;}
+.top_can{
+    background-image: url(images/canada_top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 200px; 
+	margin: -5px;
+	image-rendering: pixelated;
+    font-size: 46pt;
+    text-align: left;
 }
 
 
