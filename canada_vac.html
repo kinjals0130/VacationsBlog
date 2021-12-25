@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Canada</title>
     <link rel = "stylesheet" href = "vacations_main.css">
+    <link rel = "stylesheet" href = "slideshow.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+
 <body>
     <h1 class = "top_can">Canada!</h1>
     <!-- placeholder for the navigation bar, use javascript to implement it-->
@@ -16,7 +20,37 @@
         });
     </script>
 
-    
-    
+    <br>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/quebec.jpg" style="width:100%">
+            <div class="text">Quebec</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/ontario.jpg" style="width:100%">
+            <div class="text">Ontario</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/manitoba.jpg" style="width:100%">
+            <div class="text">Manitoba</div>
+        </div>
+        
+    </div>
+    <br>
+        
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script src = "slideshow.js"></script> 
 </body>
 </html>
+
