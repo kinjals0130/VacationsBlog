@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 250px; 
-	margin: -5px;
+	margin: 0px;
 	image-rendering: pixelated;
     font-size: 46pt;
     text-align: left;
@@ -15,11 +15,24 @@
     background-image: url(images/canada_top.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 200px; 
-	margin: -5px;
+    padding: 250px; 
+	margin: 0px;
 	image-rendering: pixelated;
     font-size: 46pt;
-    text-align: left;
+    color: lightpink;
+    text-align: center;
+}
+
+.top_usa{
+    background-image: url(images/usa_top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 250px; 
+	margin: 0px;
+	image-rendering: pixelated;
+    font-size: 46pt;
+    color: black;
+    text-align: center;
 }
 
 /* The Modal (background) */

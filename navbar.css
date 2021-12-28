@@ -1,7 +1,7 @@
 /*css styling for the navbar*/
 ul.main_navbar{
     list-style-type: none;
-    margin: -5px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
