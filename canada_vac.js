@@ -19,6 +19,7 @@ for(let i = 0; i < spans.length; i++){
 }
 };
 
+// Show the popup on click
 $('.btn').click(function(){
     $('.popup').hide();
     $('#' + $(this).attr('data-popup')).show();
